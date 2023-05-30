@@ -9,8 +9,5 @@ https://github.com/AkinKemal/onlinePlatformWithMobileApplication/assets/10269123
 ![Activity Diagram - Search](https://github.com/AkinKemal/onlinePlatformWithMobileApplication/assets/102691230/d89d476a-8f63-43de-8fe7-db58d6726397)
 ![User Interface Design](https://github.com/AkinKemal/onlinePlatformWithMobileApplication/assets/102691230/97125c87-eff0-46e4-b9ad-cd96ddab4c8a)
 
-[Seng272-HW04-Report.pdf](https://github.com/AkinKemal/onlinePlatformWithMobileApplication/files/11597906/Seng272-HW04-Report.pdf)
-
-# Survey
+# Survey Video
 https://github.com/AkinKemal/onlinePlatformWithMobileApplication/assets/102691230/aed421a1-f8ce-4a24-94ce-19d605552519
-[Survey Report.pdf](https://github.com/AkinKemal/onlinePlatformWithMobileApplication/files/11597895/Survey.Report.pdf)
