@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OnlinePlatform" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Uygulamanın arka plan rengi -->
+        <item name="android:windowBackground">@color/app_color_1</item>
+
+        <!-- Primary brand color. -->
+        <!-- Uygulamanın birincil rengi (Toolbar, ActionBar vb.) -->
+        <item name="colorPrimary">@color/app_color_1</item>
+
+        <!-- Uygulamanın birincil renginin tonu -->
+        <item name="colorPrimaryVariant">@color/app_color_1</item>
+
+        <!-- Birincil rengin üzerindeki metinlerin rengi -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <!-- Uygulamanın ikincil rengi -->
+        <item name="colorSecondary">@color/app_color_3</item>
+
+        <!-- Uygulamanın ikincil renginin tonu -->
+        <item name="colorSecondaryVariant">@color/app_color_4</item>
+
+        <!-- İkincil rengin üzerindeki metinlerin rengi -->
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+        <!-- Uygulamanın içeriklerindeki vurgulu metinlerin rengi -->
+        <item name="android:textColorHighlight">@color/app_color_3</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CleanerDetailActivity"
+    android:background="@color/app_color_5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/app_color_4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_color_4"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:baselineAligned="false">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:cardCornerRadius="10dp">
+
+                            <ImageView
+                                android:id="@+id/cleaner_in_detail_image_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/app_color_4"
+                                android:layout_gravity="center"
+                                android:contentDescription="@string/image">
+                            </ImageView>
+                        </androidx.cardview.widget.CardView>
+
+                        <ImageView
+                            android:id="@+id/score_in_detail_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@string/image">
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/insurance_in_detail_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_margin="2dp">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reservation_fee"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/personal_price_in_detail_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/icon_color"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <TextView
+                            android:id="@+id/cleaner_name_in_detail_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/icon_color"
+                            android:singleLine="true"
+                            android:layout_gravity="center">
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/gender_in_detail_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/age_in_detail_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:layout_gravity="center">
+                            </TextView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/introduction_in_detail_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textStyle="normal"
+                            android:textColor="@color/black">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/icon_color"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/cleaning_methods_in_detail_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textStyle="normal"
+                            android:textColor="@color/black">
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_phone"
+                                android:layout_gravity="center"
+                                android:contentDescription="@string/image">
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/phone_in_detail_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/_00000000000"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"
+                                android:textAlignment="center"
+                                android:layout_gravity="center"
+                                android:gravity="center">
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/icon_color"
+                                android:layout_margin="3dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textAlignment="center">
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_mail"
+                                android:layout_gravity="center"
+                                android:contentDescription="@string/image">
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/mail_in_detail_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/mail"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"
+                                android:textAlignment="center"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:ellipsize="marquee"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true">
+                            </TextView>
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/baseline_message"
+                            android:background="@android:color/transparent"
+                            android:layout_gravity="right"
+                            tools:ignore="RtlHardcoded"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@string/image_button">
+                        </ImageButton>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/app_color_4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_color_4"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/baseline_home"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/image">
+                        </ImageView>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <RadioGroup
+                                    android:id="@+id/house_radio_group"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    tools:ignore="UselessParent">
+
+                                    <RadioButton
+                                        android:id="@+id/house_1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_1_1"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp"
+                                        tools:ignore="TooDeepLayout">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_2_1"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_3_1"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_3_2"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_4_1"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_4_2"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_4_3"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_8"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_5_1"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_9"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/_6_1"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+
+                                    <RadioButton
+                                        android:id="@+id/house_10"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="25sp"
+                                        android:button="@null"
+                                        android:text="@string/xl"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:background="@drawable/style_radio_button"
+                                        android:layout_margin="1dp">
+                                    </RadioButton>
+                                </RadioGroup>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/house_price_in_detail_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="@color/icon_color"
+                        android:textStyle="normal"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/types_of_cleaning"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_margin="1dp">
+                        </TextView>
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option1"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/general_cleaning_250" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/deep_cleaning_500" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option3"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/laundry_and_or_ironing_100" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option4"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/organizing_and_decluttering_100" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option5"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/window_cleaning_200" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option6"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/special_requests_500" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_option7"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/pet_related_cleaning_500" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/method_price_in_detail_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="@color/icon_color"
+                        android:textStyle="normal"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/app_color_4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_color_4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reviews_and_rating"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:id="@+id/total_comment_text_view"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="right"
+                            tools:ignore="RtlHardcoded">
+                        </TextView>
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/comment_in_detail_recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/booking_in_detail_button"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/app_color_1"
+            android:text="@string/booking"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center">
+        </Button>
+
+        <TextView
+            android:id="@+id/total_price_in_detail_text_view"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/_0000"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@color/app_color_3"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

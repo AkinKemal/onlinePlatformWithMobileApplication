@@ -1,0 +1,734 @@
+{
+  "cleaners": [
+    {
+      "photo": "0",
+      "firstName": "Emma",
+      "lastName": "Johnson",
+      "gender": "Female",
+      "age": 25,
+      "insuranceInfo": "ABC Insurance",
+      "phoneNumber": "5551234567",
+      "email": "emma.johnson@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "introduction": "I provide professional cleaning services with utmost dedication and attention to detail. I aim to deliver a spotless and organized space for my clients.",
+      "cleaningMethods": "I use a systematic and thorough approach to cleaning, ensuring every nook and cranny is taken care of. From dusting to disinfecting, I provide top-notch cleaning solutions.",
+      "rateMultiplier": 2.1,
+      "ratings": [
+        {
+          "user": "John Smith",
+          "rating": 5,
+          "comment": "Emma did an excellent job. My house looks sparkling clean!",
+          "date": "2023-05-15",
+          "photos": ["0", "1"],
+          "likes": 8,
+          "dislikes": 2
+        },
+        {
+          "user": "Emily Davis",
+          "rating": 5,
+          "comment": "I am amazed by Emma's cleaning skills. She exceeded my expectations!",
+          "date": "2023-05-18",
+          "photos": ["2", "3"],
+          "likes": 12,
+          "dislikes": 0
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 5
+    },
+
+
+    {
+      "photo": "1",
+      "firstName": "Liam",
+      "lastName": "Smith",
+      "gender": "Male",
+      "age": 32,
+      "insuranceInfo": "DEF Insurance",
+      "phoneNumber": "5552345678",
+      "email": "liam.smith@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "introduction": "I take pride in delivering high-quality cleaning services that leave my clients satisfied. Your cleanliness is my priority.",
+      "cleaningMethods": "I utilize effective cleaning techniques and eco-friendly products to ensure a clean and healthy environment. From meticulous dusting to thorough sanitization, I handle it all.",
+      "rateMultiplier": 3.5,
+      "ratings": [
+        {
+          "user": "Olivia Wilson",
+          "rating": 4,
+          "comment": "Liam's cleaning service was exceptional. He paid attention to every detail.",
+          "date": "2023-05-14",
+          "photos": ["4", "5"],
+          "likes": 6,
+          "dislikes": 1
+        },
+        {
+          "user": "Noah Johnson",
+          "rating": 3,
+          "comment": "Good service overall, but missed a few spots in the kitchen.",
+          "date": "2023-05-17",
+          "photos": ["6", "7"],
+          "likes": 2,
+          "dislikes": 3
+        },
+        {
+          "user": "Mia Wilson",
+          "rating": 2,
+          "comment": "Bad service! Liam didn't left my house sparkling clean.",
+          "date": "2023-05-13",
+          "photos": ["9", "8"],
+          "likes": 8,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 3,
+      "successScore": 4.0
+    },
+
+
+    {
+      "photo": "2",
+      "firstName": "Olivia",
+      "lastName": "Williams",
+      "gender": "Female",
+      "age": 28,
+      "insuranceInfo": "GHI Insurance",
+      "phoneNumber": "5553456789",
+      "email": "olivia.williams@example.com",
+      "availability": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "introduction": "I am passionate about creating clean and hygienic spaces for my clients. I believe in delivering exceptional service that exceeds expectations.",
+      "cleaningMethods": "I follow a comprehensive cleaning approach that covers all areas of your home. From deep cleaning to organizing, I ensure a pristine environment.",
+      "rateMultiplier": 1.7,
+      "ratings": [
+        {
+          "user": "Emma Johnson",
+          "rating": 5,
+          "comment": "Olivia is a reliable and thorough cleaner. I highly recommend her services!",
+          "date": "2023-05-13",
+          "photos": ["8", "9"],
+          "likes": 10,
+          "dislikes": 0
+        },
+        {
+          "user": "Sophia Davis",
+          "rating": 4,
+          "comment": "Great job! Olivia transformed my messy apartment into a clean and cozy space.",
+          "date": "2023-05-16",
+          "photos": ["0", "3"],
+          "likes": 7,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 4.5
+    },
+
+
+    {
+      "photo": "3",
+      "firstName": "Noah",
+      "lastName": "Brown",
+      "gender": "Male",
+      "age": 30,
+      "insuranceInfo": "JKL Insurance",
+      "phoneNumber": "5554567890",
+      "email": "noah.brown@example.com",
+      "availability": ["Saturday", "Sunday"],
+      "introduction": "I am dedicated to providing top-notch cleaning services that bring cleanliness and orderliness to your living space.",
+      "cleaningMethods": "With attention to detail and a systematic approach, I ensure every corner is spotless. I employ efficient cleaning techniques to deliver exceptional results.",
+      "rateMultiplier": 0.9,
+      "ratings": [
+        {
+          "user": "Sophia Davis",
+          "rating": 4,
+          "comment": "Noah is a reliable and efficient cleaner. I am satisfied with his services.",
+          "date": "2023-05-14",
+          "photos": ["9", "1"],
+          "likes": 5,
+          "dislikes": 0
+        },
+        {
+          "user": "Aiden Wilson",
+          "rating": 3,
+          "comment": "Decent job overall, but missed cleaning under the furniture.",
+          "date": "2023-05-17",
+          "photos": ["7", "4"],
+          "likes": 1,
+          "dislikes": 2
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 1
+    },
+
+
+    {
+      "photo": "4",
+      "firstName": "Sophia",
+      "lastName": "Davis",
+      "gender": "Female",
+      "age": 27,
+      "insuranceInfo": "MNO Insurance",
+      "phoneNumber": "5555678901",
+      "email": "sophia.davis@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "introduction": "I am a meticulous cleaner dedicated to providing exceptional service. Your satisfaction is my top priority.",
+      "cleaningMethods": "I employ a detailed cleaning approach that focuses on cleanliness and organization. From sanitizing surfaces to decluttering, I ensure a pristine environment.",
+      "rateMultiplier": 1.9,
+      "ratings": [
+        {
+          "user": "Liam Smith",
+          "rating": 5,
+          "comment": "Sophia is a thorough and reliable cleaner. I am highly satisfied with her work!",
+          "date": "2023-05-12",
+          "photos": ["1", "5"],
+          "likes": 9,
+          "dislikes": 0
+        },
+        {
+          "user": "Ava Johnson",
+          "rating": 4,
+          "comment": "Great service! Sophia left my place spotless and organized.",
+          "date": "2023-05-15",
+          "photos": ["0", "6"],
+          "likes": 6,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 4.5
+    },
+
+
+    {
+      "photo": "5",
+      "firstName": "Aiden",
+      "lastName": "Wilson",
+      "gender": "Male",
+      "age": 35,
+      "insuranceInfo": "PQR Insurance",
+      "phoneNumber": "5556789012",
+      "email": "aiden.wilson@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "introduction": "I am a dedicated and experienced cleaner who takes pride in delivering exceptional cleaning solutions to my clients.",
+      "cleaningMethods": "Using advanced cleaning techniques, I ensure a comprehensive and efficient cleaning experience. From stain removal to deep cleaning, I guarantee outstanding results.",
+      "rateMultiplier": 1.3,
+      "ratings": [
+        {
+          "user": "Emma Johnson",
+          "rating": 4,
+          "comment": "Aiden did a great job. My house looks fresh and clean!",
+          "date": "2023-05-11",
+          "photos": ["2", "5"],
+          "likes": 7,
+          "dislikes": 1
+        },
+        {
+          "user": "Oliver Brown",
+          "rating": 3,
+          "comment": "Decent service, but missed cleaning the windows.",
+          "date": "2023-05-14",
+          "photos": ["8", "3"],
+          "likes": 2,
+          "dislikes": 2
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 3.5
+    },
+
+
+    {
+      "photo": "6",
+      "firstName": "Ava",
+      "lastName": "Johnson",
+      "gender": "Female",
+      "age": 29,
+      "insuranceInfo": "STU Insurance",
+      "phoneNumber": "5557890123",
+      "email": "ava.johnson@example.com",
+      "availability": ["Monday", "Tuesday", "Saturday", "Sunday"],
+      "introduction": "I am committed to delivering exceptional cleaning services that exceed client expectations. Your satisfaction is my priority.",
+      "cleaningMethods": "I utilize effective cleaning methods tailored to your specific needs. From general cleaning to deep cleaning, I ensure a clean and organized living space.",
+      "rateMultiplier": 1.5,
+      "ratings": [
+        {
+          "user": "Noah Brown",
+          "rating": 5,
+          "comment": "Ava is a reliable and thorough cleaner. I am highly satisfied with her work!",
+          "date": "2023-05-10",
+          "photos": ["5", "1"],
+          "likes": 10,
+          "dislikes": 0
+        }
+      ],
+      "totalRatings": 1,
+      "successScore": 1.5
+    },
+
+
+    {
+      "photo": "7",
+      "firstName": "Oliver",
+      "lastName": "Brown",
+      "gender": "Male",
+      "age": 31,
+      "insuranceInfo": "VWX Insurance",
+      "phoneNumber": "5558901234",
+      "email": "oliver.brown@example.com",
+      "availability": ["Saturday", "Sunday"],
+      "introduction": "With my expertise in cleaning, I aim to provide exceptional service that leaves your space immaculate and fresh.",
+      "cleaningMethods": "I employ efficient cleaning techniques and utilize high-quality products to deliver outstanding results. From floor to ceiling, I ensure a thorough cleaning experience.",
+      "rateMultiplier": 0.5,
+      "ratings": [
+        {
+          "user": "Sophia Davis",
+          "rating": 1,
+          "comment": "Oliver did not a great job. My place looks bad.",
+          "date": "2023-05-10",
+          "photos": ["2", "3"],
+          "likes": 6,
+          "dislikes": 0
+        }
+      ],
+      "totalRatings": 1,
+      "successScore": 0.5
+    },
+
+
+    {
+      "photo": "8",
+      "firstName": "Mia",
+      "lastName": "Wilson",
+      "gender": "Female",
+      "age": 26,
+      "insuranceInfo": "YZA Insurance",
+      "phoneNumber": "5559012345",
+      "email": "mia.wilson@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "introduction": "I am dedicated to providing top-quality cleaning services that ensure a clean and inviting environment for my clients.",
+      "cleaningMethods": "Using my attention to detail and effective cleaning methods, I ensure a spotless and fresh living space. From dusting to mopping, I cover it all.",
+      "rateMultiplier": 1.6,
+      "ratings": [
+        {
+          "user": "Liam Smith",
+          "rating": 5,
+          "comment": "Mia is an amazing cleaner. I am highly satisfied with her work!",
+          "date": "2023-05-09",
+          "photos": ["5", "0"],
+          "likes": 9,
+          "dislikes": 0
+        },
+        {
+          "user": "Elijah Davis",
+          "rating": 4,
+          "comment": "Great service! Mia left my house looking immaculate.",
+          "date": "2023-05-12",
+          "photos": ["4", "5"],
+          "likes": 7,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 4.5
+    },
+
+
+    {
+      "photo": "9",
+      "firstName": "Ethan",
+      "lastName": "Smith",
+      "gender": "Male",
+      "age": 33,
+      "insuranceInfo": "BCD Insurance",
+      "phoneNumber": "5550123456",
+      "email": "ethan.smith@example.com",
+      "availability": ["Monday", "Wednesday", "Friday", "Sunday"],
+      "introduction": "I am a meticulous cleaner with years of experience. I strive to deliver exceptional cleaning solutions to my clients.",
+      "cleaningMethods": "With attention to detail and efficient cleaning techniques, I ensure a thorough and satisfactory cleaning experience. Your cleanliness is my priority.",
+      "rateMultiplier": 1.3,
+      "ratings": [
+        {
+          "user": "Ava Johnson",
+          "rating": 4,
+          "comment": "Ethan is a reliable and efficient cleaner. I am highly satisfied with his work!",
+          "date": "2023-05-08",
+          "photos": ["9", "3"],
+          "likes": 8,
+          "dislikes": 0
+        }
+      ],
+      "totalRatings": 1,
+      "successScore": 4
+    },
+
+    {
+      "photo": "10",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "Male",
+      "age": 30,
+      "insuranceInfo": "XYZ Insurance",
+      "phoneNumber": "5559876543",
+      "email": "john.doe@example.com",
+      "availability": ["Monday", "Wednesday", "Friday"],
+      "introduction": "I provide reliable handyman services to help with all your repair and maintenance needs. No job is too big or too small for me!",
+      "cleaningMethods": "With a systematic and comprehensive cleaning approach, I leave no area untouched. From meticulous dusting to effective disinfection, my cleaning services are second to none.",
+      "rateMultiplier": 0.5,
+      "ratings": [
+        {
+          "user": "Sarah Thompson",
+          "rating": 4,
+          "comment": "John did a great job fixing my plumbing issues. Highly recommended!",
+          "date": "2023-05-10",
+          "photos": ["4", "5"],
+          "likes": 6,
+          "dislikes": 1
+        },
+        {
+          "user": "Michael Anderson",
+          "rating": 5,
+          "comment": "I'm impressed with John's professionalism. He fixed my electrical problems in no time!",
+          "date": "2023-05-16",
+          "photos": ["6", "8"],
+          "likes": 10,
+          "dislikes": 0
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 3.5
+    },
+
+    {
+      "photo": "11",
+      "firstName": "Sophia",
+      "lastName": "Lee",
+      "gender": "Female",
+      "age": 28,
+      "insuranceInfo": "DEF Insurance",
+      "phoneNumber": "5552223333",
+      "email": "sophia.lee@example.com",
+      "availability": ["Tuesday", "Thursday", "Saturday"],
+      "introduction": "I'm a certified personal trainer dedicated to helping you achieve your fitness goals. Let's work together and make progress!",
+      "cleaningMethods": "I employ a meticulous cleaning methodology that ensures every corner and crevice receives thorough attention. From dusting to disinfecting, I deliver exceptional cleaning solutions.",
+      "rateMultiplier": 2.5,
+      "ratings": [
+        {
+          "user": "Emma Roberts",
+          "rating": 5,
+          "comment": "Sophia is an amazing trainer. She keeps me motivated and helps me push my limits!",
+          "date": "2023-05-12",
+          "photos": ["7", "2"],
+          "likes": 15,
+          "dislikes": 0
+        },
+        {
+          "user": "Daniel Wilson",
+          "rating": 4,
+          "comment": "I appreciate Sophia's expertise. She plans personalized workouts that suit my needs.",
+          "date": "2023-05-19",
+          "photos": ["8", "1"],
+          "likes": 8,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":4.5
+    },
+
+    {
+      "photo": "12",
+      "firstName": "David",
+      "lastName": "Brown",
+      "gender": "Male",
+      "age": 35,
+      "insuranceInfo": "GHI Insurance",
+      "phoneNumber": "5554445555",
+      "email": "david.brown@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "introduction": "I offer professional accounting and bookkeeping services. Let me handle your financial tasks while you focus on growing your business.",
+      "cleaningMethods": "My cleaning methods are systematic and detailed, leaving no room for dust or dirt. From thorough dusting to comprehensive disinfection, I provide exceptional cleaning solutions.",
+      "rateMultiplier": 2.2,
+      "ratings": [
+        {
+          "user": "Olivia Taylor",
+          "rating": 5,
+          "comment": "David is a lifesaver. He helped me get my business finances in order and provided valuable advice.",
+          "date": "2023-05-13",
+          "photos": ["9", "1"],
+          "likes": 10,
+          "dislikes": 0
+        },
+        {
+          "user": "James Johnson",
+          "rating": 5,
+          "comment": "I'm happy with David's services. He's reliable and efficient in managing my accounts.",
+          "date": "2023-05-20",
+          "photos": ["5", "1"],
+          "likes": 7,
+          "dislikes": 2
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":5
+    },
+
+    {
+      "photo": "13",
+      "firstName": "Olivia",
+      "lastName": "Miller",
+      "gender": "Female",
+      "age": 32,
+      "insuranceInfo": "JKL Insurance",
+      "phoneNumber": "5555556666",
+      "email": "olivia.miller@example.com",
+      "availability": ["Tuesday", "Thursday", "Saturday", "Sunday"],
+      "introduction": "I provide professional photography services to capture your special moments. Let's create beautiful memories together!",
+      "cleaningMethods": "Using a systematic and methodical approach, I guarantee a pristine and sanitized environment. From meticulous dusting to thorough disinfection, my cleaning services exceed expectations.",
+      "rateMultiplier": 2.8,
+      "ratings": [
+        {
+          "user": "William Wilson",
+          "rating": 5,
+          "comment": "Olivia's photography skills are exceptional. She captured the essence of our wedding perfectly!",
+          "date": "2023-05-14",
+          "photos": ["2", "3"],
+          "likes": 20,
+          "dislikes": 0
+        },
+        {
+          "user": "Sophie Anderson",
+          "rating": 5,
+          "comment": "I'm amazed by Olivia's talent. She made our family photoshoot fun and memorable!",
+          "date": "2023-05-21",
+          "photos": ["4", "5"],
+          "likes": 13,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":5
+    },
+
+    {
+      "photo": "14",
+      "firstName": "Liam",
+      "lastName": "Wilson",
+      "gender": "Male",
+      "age": 45,
+      "insuranceInfo": "MNO Insurance",
+      "phoneNumber": "5556667777",
+      "email": "liam.wilson@example.com",
+      "availability": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "introduction": "I provide reliable lawn care and landscaping services to keep your outdoor spaces beautiful and well-maintained.",
+      "cleaningMethods": "I adhere to a systematic and comprehensive cleaning process, ensuring every surface is spotless. From meticulous dusting to thorough disinfection, I deliver top-quality cleaning solutions",
+      "rateMultiplier": 1.9,
+      "ratings": [
+        {
+          "user": "Charlotte Davis",
+          "rating": 4,
+          "comment": "Liam did a great job transforming my backyard. It looks stunning now!",
+          "date": "2023-05-17",
+          "photos": ["5", "2"],
+          "likes": 9,
+          "dislikes": 0
+        },
+        {
+          "user": "Oliver Johnson",
+          "rating": 5,
+          "comment": "I'm impressed with Liam's expertise. He's knowledgeable and provides excellent service.",
+          "date": "2023-05-24",
+          "photos": ["6", "7"],
+          "likes": 11,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":2.5
+    },
+
+    {
+      "photo": "15",
+      "firstName": "Ava",
+      "lastName": "Wilson",
+      "gender": "Female",
+      "age": 27,
+      "insuranceInfo": "PQR Insurance",
+      "phoneNumber": "5557778888",
+      "email": "ava.wilson@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+      "introduction": "I'm a skilled web developer with experience in building responsive and user-friendly websites. Let's bring your ideas to life!",
+      "cleaningMethods": "With an organized and meticulous cleaning approach, I leave no spot untouched. From thorough dusting to effective disinfection, my cleaning services ensure an immaculate space.",
+      "rateMultiplier": 2.3,
+      "ratings": [
+        {
+          "user": "Noah Thompson",
+          "rating": 5,
+          "comment": "Ava is a talented web developer. She created an amazing website for my business!",
+          "date": "2023-05-16",
+          "photos": ["7", "8"],
+          "likes": 14,
+          "dislikes": 0
+        },
+        {
+          "user": "Sophia Brown",
+          "rating": 4,
+          "comment": "I'm satisfied with Ava's work. She delivered a professional and functional website.",
+          "date": "2023-05-23",
+          "photos": ["9", "1"],
+          "likes": 8,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":4.5
+    },
+
+    {
+      "photo": "16",
+      "firstName": "Noah",
+      "lastName": "Taylor",
+      "gender": "Male",
+      "age": 38,
+      "insuranceInfo": "STU Insurance",
+      "phoneNumber": "5558889999",
+      "email": "noah.taylor@example.com",
+      "availability": ["Wednesday", "Thursday", "Friday", "Sunday"],
+      "introduction": "I offer personalized tutoring services for various subjects. I'm passionate about helping students reach their academic goals.",
+      "cleaningMethods": "My cleaning methods are systematic and thorough, ensuring every nook and cranny is meticulously cleaned. From dusting to disinfecting, I provide exceptional attention to detail.",
+      "rateMultiplier": 0.4,
+      "ratings": [
+        {
+          "user": "Isabella Davis",
+          "rating": 5,
+          "comment": "Noah is an excellent tutor. He explains complex concepts in a way that's easy to understand.",
+          "date": "2023-05-19",
+          "photos": ["2", "3"],
+          "likes": 17,
+          "dislikes": 0
+        },
+        {
+          "user": "Mia Anderson",
+          "rating": 4,
+          "comment": "I appreciate Noah's patience and dedication. He helped me improve my math skills significantly.",
+          "date": "2023-05-26",
+          "photos": ["1", "5"],
+          "likes": 9,
+          "dislikes": 2
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":3.5
+    },
+
+    {
+      "photo": "17",
+      "firstName": "Isabella",
+      "lastName": "Clark",
+      "gender": "Female",
+      "age": 29,
+      "insuranceInfo": "VWX Insurance",
+      "phoneNumber": "5559990000",
+      "email": "isabella.clark@example.com",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+      "introduction": "I'm a certified yoga instructor with a focus on holistic well-being. Let's find balance and tranquility together!",
+      "cleaningMethods": "Using a methodical and detailed cleaning approach, I guarantee a pristine and orderly space. From comprehensive dusting to meticulous disinfection, my cleaning services are unmatched.",
+      "rateMultiplier": 1.3,
+      "ratings": [
+        {
+          "user": "Mason Davis",
+          "rating": 5,
+          "comment": "Isabella is an amazing yoga instructor. Her classes leave me feeling refreshed and rejuvenated!",
+          "date": "2023-05-15",
+          "photos": ["2", "3"],
+          "likes": 16,
+          "dislikes": 0
+        },
+        {
+          "user": "Liam Johnson",
+          "rating": 4,
+          "comment": "I'm happy with Isabella's classes. She creates a calming atmosphere and guides us through the poses effectively.",
+          "date": "2023-05-22",
+          "photos": ["4", "5"],
+          "likes": 8,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":4.5
+    },
+
+    {
+      "photo": "18",
+      "firstName": "Mia",
+      "lastName": "Anderson",
+      "gender": "Female",
+      "age": 33,
+      "insuranceInfo": "YZA Insurance",
+      "phoneNumber": "5550001111",
+      "email": "mia.anderson@example.com",
+      "availability": ["Tuesday", "Thursday", "Friday", "Saturday"],
+      "introduction": "I provide expert nutrition counseling to help you achieve your health and wellness goals. Let's make positive changes together!",
+      "cleaningMethods": "I employ a systematic and thorough cleaning methodology that leaves no area overlooked. From meticulous dusting to comprehensive disinfection, I offer top-notch cleaning solutions.",
+      "rateMultiplier": 2.4,
+      "ratings": [
+        {
+          "user": "Oliver Brown",
+          "rating": 5,
+          "comment": "Mia is a knowledgeable nutritionist. Her guidance helped me adopt a healthier lifestyle.",
+          "date": "2023-05-18",
+          "photos": ["5", "6"],
+          "likes": 13,
+          "dislikes": 0
+        },
+        {
+          "user": "Sophie Taylor",
+          "rating": 4,
+          "comment": "I appreciate Mia's expertise in nutrition. She provided practical and customized recommendations.",
+          "date": "2023-05-25",
+          "photos": ["7", "8"],
+          "likes": 7,
+          "dislikes": 1
+        }
+      ],
+      "totalRatings": 2,
+      "successScore":4.5
+    },
+
+    {
+      "photo": "19",
+      "firstName": "Charlotte",
+      "lastName": "Thomas",
+      "gender": "Female",
+      "age": 31,
+      "insuranceInfo": "ABC Insurance",
+      "phoneNumber": "5551112222",
+      "email": "charlotte.thomas@example.com",
+      "availability": ["Wednesday", "Thursday", "Saturday", "Sunday"],
+      "introduction": "I provide professional interior design services to transform your living spaces into beautiful and functional environments.",
+      "cleaningMethods": "With a systematic and detail-oriented cleaning approach, I ensure a spotless and hygienic environment. From thorough dusting to effective disinfection, my cleaning services are of the highest standard.",
+      "rateMultiplier": 2.6,
+      "ratings": [
+        {
+          "user": "William Johnson",
+          "rating": 5,
+          "comment": "Charlotte has an incredible eye for design. She turned my house into a stylish and comfortable home!",
+          "date": "2023-05-20",
+          "photos": ["2", "8"],
+          "likes": 15,
+          "dislikes": 0
+        },
+        {
+          "user": "Olivia Davis",
+          "rating": 4,
+          "comment": "I'm satisfied with Charlotte's interior design services. She created a unique and personalized space for me.",
+          "date": "2023-05-27",
+          "photos": ["9", "1"],
+          "likes": 9,
+          "dislikes": 2
+        }
+      ],
+      "totalRatings": 2,
+      "successScore": 3.5
+    }
+  ]
+}
